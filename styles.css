@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.flyer {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    border: 1px solid #e6003e;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.hero img {
+    width: 40%;
+    height: auto;
+}
+
+h1 {
+    color: #e6003e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #696969;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
