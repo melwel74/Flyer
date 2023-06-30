@@ -1,38 +1,51 @@
+:root {
+    --primary-color: #e6003e;
+    --secondary-color: #696969;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: var(--primary-color) url('background.png') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .flyer {
     margin: auto;
     width: 60%;
     padding: 20px;
-    border: 1px solid #e6003e;
+    border: none;
     border-radius: 10px;
     text-align: center;
     background-color: white;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    position: relative;
 }
 
 .hero {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+   
 }
 
 .hero img {
     width: 40%;
     height: auto;
+    box-shadow: 0px 10px 10px;
 }
 
 h1 {
-    color: #e6003e;
+    color: var(--primary-color);
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 h2 {
-    color: #696969;
+    color: var(--secondary-color);
     margin-top: 20px;
 }
 
@@ -43,4 +56,38 @@ ul {
 
 ul li {
     margin-bottom: 10px;
+}
+
+.illustration {
+    text-align: center;
+    margin-top: 20px;
+    border: none;
+}
+
+.illustration img {
+    width: 50%;
+    height: auto;
+}
+
+.contact-card {
+    background: #ebeaea;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.1); */
+    margin-top: 20px;
+}
+
+.contact-card h2 {
+    color: #e6003e;
+    margin-bottom: 20px;
+}
+
+.contact-card p {
+    color: #e6003e;
+    line-height: 1.6;
+}
+
+.contact-card a {
+    color: #171516;
+    text-decoration: none;
 }
